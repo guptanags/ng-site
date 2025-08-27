@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a Nagendra Gupta personal site. Add blog posts as Markdown and they will appear on the Insights page and the latest three on the home page.
 
 ## Getting Started
 
@@ -15,6 +15,45 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Content structure
+
+1) Posts go in `content/posts/*.md` with frontmatter:
+
+```
+---
+title: "Post title"
+date: "2025-08-24" # ISO date string
+summary: "Short summary shown on cards"
+tags: [strategy, innovation]
+draft: false
+---
+
+Your markdown content...
+```
+
+2) The About page links to `public/profile.pdf`. Replace that file with your own.
+
+3) Pages:
+- `/` Home (shows 3 latest posts)
+- `/insights` (all posts)
+- `/insights/[slug]` (post detail)
+- `/about`, `/services`, `/speaking`, `/contact`
+
+### Contact form email setup
+
+1) Create a `.env.local` file in `site/` with:
+
+```
+SMTP_HOST=smtp.yourprovider.com
+SMTP_PORT=587
+SMTP_USER=your_smtp_username
+SMTP_PASS=your_smtp_password
+CONTACT_TO_EMAIL=you@yourdomain.com
+CONTACT_FROM_EMAIL=website@yourdomain.com
+```
+
+2) Start the dev server and test the Contact form. In production, set the same env vars on your host (e.g., Vercel/Netlify).
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

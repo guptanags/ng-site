@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Headshot placeholder">
+  <rect width="512" height="512" fill="#1f2937"/>
+  <circle cx="256" cy="196" r="92" fill="#374151"/>
+  <rect x="96" y="296" width="320" height="140" rx="70" fill="#374151"/>
+  <text x="256" y="476" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle">Your Headshot</text>
+</svg>
+
