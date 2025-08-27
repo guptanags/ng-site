@@ -80,16 +80,7 @@ export default function Home() {
         )}
       </section>
 
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Trusted By</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 opacity-70">
-          {['/vercel.svg','/next.svg','/globe.svg','/window.svg'].map((src, i) => (
-            <div key={i} className="flex items-center justify-center rounded border border-slate-800 py-6 bg-slate-900">
-              <Image src={src} alt="logo" width={100} height={28} className="dark:invert" />
-            </div>
-          ))}
-        </div>
-      </section>
+
     </main>
   );
 }
