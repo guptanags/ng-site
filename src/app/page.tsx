@@ -23,6 +23,9 @@ export default function Home() {
           <p className="text-lg text-neutral-300 mt-3">
             Strategic Technologist · Gen AI & Cloud for Financial Services · Credit Risk Leader
           </p>
+          <p className="text-lg text-neutral-300 mt-3">
+            Driving Growth Through Strategic Innovation
+          </p>
           <p className="text-base text-neutral-300 mt-4 max-w-3xl mx-auto">
             I bridge complex technical architecture and business strategy—leveraging Generative and Agentic AI to automate development,
             enhance credit risk workflows, and build the future of financial services.
