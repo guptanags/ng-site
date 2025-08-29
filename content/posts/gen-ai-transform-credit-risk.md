@@ -1,9 +1,8 @@
-
 ---
 title: "How Generative AI is Transforming Credit Risk in Banking"
-date: "August 28, 2025"
+date: "2025-08-28"
 summary: "How Generative AI is Transforming Credit Risk in Banking"
-tags: [generative-ai, transformation, credit-risk]
+tags: [generative-ai, transformation,credit-risk]
 ---
 # How Generative AI is Transforming Credit Risk in Banking
 
