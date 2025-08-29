@@ -19,3 +19,4 @@ vercel --prod
 echo "✅ Deployment complete!"
 echo "💡 Your site is now live!"
 echo "🔧 To update, just run: git push origin main"
+

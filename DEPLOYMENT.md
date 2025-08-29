@@ -123,3 +123,4 @@ CONTACT_FROM_EMAIL=website@yourdomain.com
 - Automatic deployments
 - Edge functions for API routes
 - Better Next.js support than static export
+
