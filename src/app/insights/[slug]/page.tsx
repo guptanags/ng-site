@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getAllPostSlugs, getPostBySlug } from '@/lib/md';
+import './blog.css';
 
 type Params = Promise<{ slug: string }>;
 
@@ -13,9 +14,21 @@ export default async function PostPage({ params }: { params: Params }) {
   if (!post) return notFound();
   const { frontmatter, html } = post;
   return (
-    <main className="prose prose-zinc dark:prose-invert max-w-3xl mx-auto py-10">
-      <h1>{frontmatter.title}</h1>
-      <article dangerouslySetInnerHTML={{ __html: html }} />
+    <main className="max-w-4xl mx-auto py-10 px-4">
+        <header className="mb-8">
+          <h1 className="text-4xl font-bold mb-4">{frontmatter.title}</h1>
+          <div className="text-slate-400 text-sm">
+            Published {new Date(frontmatter.date).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            })}
+          </div>
+        </header>
+        <article
+        className="blog-content"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </main>
   );
 }

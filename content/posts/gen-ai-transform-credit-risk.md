@@ -2,11 +2,12 @@
 title: "How Generative AI is Transforming Credit Risk in Banking"
 date: "2025-08-28"
 summary: "How Generative AI is Transforming Credit Risk in Banking"
-tags: [generative-ai, transformation,credit-risk]
+tags: [how-generative-ai-transforms-credit-risk-banking, generative-ai, transformation,credit-risk]
 ---
 # How Generative AI is Transforming Credit Risk in Banking
 
 *By Nagendra Gupta, Strategic Technologist | Published August 28, 2025*
+
 
 The financial services industry is undergoing a technological revolution, driven by **Generative AI in banking**. Credit risk management, traditionally reliant on structured data like credit scores and transaction histories, is being reshaped by AI’s ability to analyze vast datasets, including unstructured data such as customer communications and market sentiment. This transformation enhances **credit risk assessment**, operational efficiency, and customer experience in banking.
 
@@ -40,13 +41,6 @@ As a **Strategic Technologist** with expertise in **Generative AI** and **Agenti
 
 *Ready to explore Generative AI for your organization? [Contact me](https://nagendra-gupta.vercel.app/contact) to discuss strategic solutions.*
 
----
-
-**SEO Metadata**:
-- **Title**: How Generative AI is Transforming Credit Risk in Banking | Nagendra Gupta
-- **Meta Description**: Discover how Generative AI revolutionizes credit risk management in banking with advanced data analysis, scenario simulation, and automation. Learn from Nagendra Gupta, a Strategic Technologist.
-- **Keywords**: Generative AI in banking, credit risk management, AI-driven credit risk, FinTech innovation, AI credit risk solutions, credit risk modeling, AI for financial risk
-- **Slug**: /how-generative-ai-transforms-credit-risk-banking
 
 **Internal Links**:
 - [My Portfolio](https://nagendra-gupta.vercel.app/portfolio)
