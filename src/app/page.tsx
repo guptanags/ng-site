@@ -21,10 +21,10 @@ export default function Home() {
         <div className="relative z-10 text-center px-6 py-16 bg-gradient-to-b from-transparent to-slate-900/70">
           <h1 className="text-5xl font-bold mt-2">Nagendra Gupta</h1>
           <p className="text-lg text-neutral-300 mt-3">
-            Strategic Technologist · Gen AI & Cloud for Financial Services · Credit Risk Leader
+          Strategic Technologist | Gen AI, Agentic AI & Quantum AI Leader | Architecting FinTech Innovation.
           </p>
           <p className="text-lg text-neutral-300 mt-3">
-            Driving Growth Through Strategic Innovation
+          Architecting the Future of Finance with AI.
           </p>
           <p className="text-base text-neutral-300 mt-4 max-w-3xl mx-auto">
             I bridge complex technical architecture and business strategy—leveraging Generative and Agentic AI to automate development,
