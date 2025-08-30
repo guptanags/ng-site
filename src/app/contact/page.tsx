@@ -38,7 +38,7 @@ export default function ContactPage() {
   return (
     <main className="max-w-xl mx-auto py-10 px-4">
       <h1 className="text-3xl font-bold mb-4">Contact</h1>
-      <p className="text-gray-400 mb-6">Use the form below or email me at <a className="text-blue-400" href="mailto:connect@example.com">connect@example.com</a>.</p>
+      <p className="text-gray-400 mb-6">Use the form below or email me at <a className="text-blue-400" href="mailto:nagendra.gupta@outlook.com">nagendra.gupta@outlook.com</a>.</p>
       <form className="space-y-4" onSubmit={onSubmit}>
         <input name="name" required placeholder="Your name" className="w-full border border-neutral-700 bg-neutral-900 rounded p-2" />
         <input name="email" required type="email" placeholder="Your email" className="w-full border border-neutral-700 bg-neutral-900 rounded p-2" />
